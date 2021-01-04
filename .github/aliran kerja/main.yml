@@ -283,7 +283,7 @@ jobs:
       with:
         name: failed-tests-${{matrix.vector.jobname}}
 /opt/hostedtoolcache/CodeQL/0.0.0-20201127/x64/codeql/cpp/tools/autobuild.sh
-+
+
         path: ${{env.FAILED_TEST_ARTIFACTS}}
   static-analysis:
     needs: ci-config
